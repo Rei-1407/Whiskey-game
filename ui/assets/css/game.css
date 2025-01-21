@@ -1,0 +1,103 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+#main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('/ui/assets/img/game.jpg') no-repeat center;
+}
+
+#main .ammo {
+    display: flex;
+    width: 16rem;
+    height: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #161616;
+    border-radius: 2rem;
+    position: relative;
+    left: -24px;
+}
+
+#main .score {
+    display: flex;
+    width: 16rem;
+    height: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #161616;
+    border-radius: 2rem;
+    position: relative;
+    left: -32px;
+}
+
+#main .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.875rem;
+    border: 1px solid #fff;
+    background: #323232;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-family: 'Palanquin Dark';
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 24.25rem;
+    height: 8.125rem;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#main .pause {
+    background: url('/ui/assets/img/leaderboard.jpg') no-repeat right;
+    width: 50.5rem;
+    height: 31.5625rem;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Palanquin Dark';
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#main .pause .yes-btn {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#main .pause .yes-btn,
+#main .pause .no-btn {
+    cursor: pointer;
+    width: 5rem;
+}
