@@ -68,6 +68,8 @@ Giang Hoàng Long (Leader) - Lên ý tưởng; thiết kế cơ chế game; tìm
 
 Đào Hoàng Thái - Xây dựng và phát triển game; bổ sung và sửa lỗi các tính năng trong game; kiểm tra lỗi trong game; lập trình giao diện người dùng cho game bằng HTML CSS JavaScript (Không được sử dụng).
 
+ChatGPT - Ghi chú chức năng cho code (để 2 ông coder làm việc chung), sửa bug, đưa ra các gợi ý để tối ưu code.
+
 Hồ Minh Hiếu - Tìm kiếm asset hình ảnh và âm thanh cho game (không được duyệt)
 
 Lê Anh Tú - Thiết kế giao diện game (không được duyệt)
