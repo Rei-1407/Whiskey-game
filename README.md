@@ -42,9 +42,9 @@ Sẽ có 3 loại quái xuất hiện ở trong đây và sẽ xuất hiện the
 
 1. **Chạy Main Menu**:
    - Đảm bảo bạn đã cài đặt đầy đủ.
-   - Mở terminal (hoặc command prompt) trong thư mục dự án và chạy file `main.py`:
+   - Mở terminal (hoặc command prompt) trong thư mục dự án và chạy file `MainMenu.py`:
      ```bash
-     python main.py
+     python MainMenu.py
      ```
 
 2. **Tương tác với Main Menu**:
